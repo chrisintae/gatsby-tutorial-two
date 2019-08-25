@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Container from '../components/container'
 import User from '../components/User'
 
@@ -6,6 +7,7 @@ export default () => (
     <Container>
         <h1>About CSS Modules</h1>
         <p>CSS modules are cool</p>
+        <p><Link to='/'>Home</Link></p>
         <User 
             username='Jane Doe'
             avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
